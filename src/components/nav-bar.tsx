@@ -11,9 +11,8 @@ const NavBar = ({
         <Link href="/" className="ml-4 flex lg:ml-0 gap-x-2">
           <p className="font-bold text-xl">Alex</p>
         </Link>
-        <div className='hidden sm:block'>
-          <MainNav />
-        </div>
+        <MainNav />
+
       </div>
     </Container>
   )
