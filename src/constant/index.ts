@@ -9,6 +9,6 @@ export const TYPE_WRITER_LIST = [
   "Hi, I'm Alex",
   "Welcome to my portfolio!",
   "I'm a full stack developer",
-  "Here you can find my projects and resume",
+  "You can find my work and CV",
   "Let's start the journey!"
 ]

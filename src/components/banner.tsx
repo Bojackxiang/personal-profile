@@ -14,7 +14,7 @@ const Banner = () => {
         <ReactTyped
           strings={TYPE_WRITER_LIST}
           loop
-          className="text-5xl font-bold"
+          className="text-white text-xl text-center sm:text-5xl font-bold"
           typeSpeed={40}
           backDelay={2000}
           showCursor

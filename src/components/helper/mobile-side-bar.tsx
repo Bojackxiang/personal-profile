@@ -14,7 +14,7 @@ const MobileSideBar = () => {
   return (
     <section className='sm:hidden flex-1'>
       <Sheet>
-        <SheetTrigger className='pr-4'>
+        <SheetTrigger className='pr-4 text-white'>
           <Menu />
         </SheetTrigger>
         <SheetContent side={'left'}>
