@@ -4,6 +4,7 @@ import React from 'react'
 import Container from './helper/container'
 import { BannerAutoWriter } from './helper/banner-auto-writer'
 import BannerPhotoAndDetials from './helper/banner-photo-details'
+import BannerCVDownload from './helper/banner-cv-download'
 
 const Banner = () => {
   return (
@@ -17,6 +18,10 @@ const Banner = () => {
 
       <Container classNames="max-w-4xl mt-10 sm:mt-20">
         <BannerPhotoAndDetials />
+      </Container>
+
+      <Container classNames="max-w-4xl mt-10 sm:mt-20">
+        <BannerCVDownload />
       </Container>
     </div>
 
