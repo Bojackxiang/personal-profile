@@ -12,11 +12,12 @@ const Banner = () => {
       style={{ backgroundImage: 'url("/banner-background.jpeg")' }}>
       <Container classNames=" max-w-7xl flex flex-col justify-center items-center">
         <ReactTyped
-          startWhenVisible
           strings={TYPE_WRITER_LIST}
           loop
-          className="text-5xl font-bold text-white"
+          className="text-5xl font-bold"
           typeSpeed={40}
+          backDelay={2000}
+          showCursor
         />
 
       </Container>
