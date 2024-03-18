@@ -1,8 +1,9 @@
 import { cn } from "@/lib/utils";
+import { ClassValue } from "class-variance-authority/types";
 
 interface ContainerProps {
   children: React.ReactNode;
-  classNames?: string;
+  classNames?: ClassValue;
 }
 
 const Container: React.FC<ContainerProps> = ({
@@ -10,7 +11,7 @@ const Container: React.FC<ContainerProps> = ({
   classNames
 }) => {
   return (
-    <div className={cn("mx-auto max-w-7xl", classNames)}>
+    <div className={cn("mx-auto ", classNames)}>
       {children}
     </div>
   );
