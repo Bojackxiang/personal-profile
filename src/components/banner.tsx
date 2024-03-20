@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import Container from './helper/container'
+import Container from './helper/shared-container'
 import { BannerAutoWriter } from './helper/banner-auto-writer'
 import BannerPhotoAndDetials from './helper/banner-photo-details'
 import BannerCVDownload from './helper/banner-cv-download'
@@ -10,8 +10,7 @@ import BannerScrollIcon from './helper/banner-scroll-icon'
 const Banner = () => {
   return (
 
-    <div className='min-h-screen pt-14 bg-cover bg-center bg-no-repeat'
-      style={{ backgroundImage: 'url("/banner-background.jpeg")' }}>
+    <div className='min-h-screen pt-14 '>
 
       <Container classNames="max-w-7xl bg-transparent flex justify-center mt-10 sm:mt-20">
         <BannerAutoWriter />

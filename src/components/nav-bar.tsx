@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from './helper/container'
+import Container from './helper/shared-container'
 import Link from 'next/link'
 import MainNav from './helper/main-nav'
 import MobileSideBar from './helper/mobile-side-bar'
